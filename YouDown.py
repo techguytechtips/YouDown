@@ -50,8 +50,14 @@ class Window(Frame):
         vidlist = list = video.get().split()
         ydl_opts = {}
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download(vidlist)
-        print("Done")
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                try:
+                    ydl.download(vidlist)
+                except Exception as e:
+                    print("Failed to download video! Error:")
+                    print(e)
+
+            print("Done")
 root = Tk()
 
 video = StringVar()
