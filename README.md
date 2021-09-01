@@ -1,7 +1,7 @@
 # YouDown
 
 ## About
-Very simple Youtube Video downloader for Youtube videos, channels and playlists.
+Very simple YouTube Video downloader for Youtube videos, channels and playlists.
 Basically a froend end to YoutubeDL.
 
 ## Note
