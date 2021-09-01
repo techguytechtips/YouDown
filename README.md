@@ -1,2 +1,8 @@
 # YouDown
-Very, Very simple Youtube Video downloader for youtube videos, channels and playlists
+
+## About
+Very simple Youtube Video downloader for Youtube videos, channels and playlists.
+Basically a froend end to YoutubeDL.
+
+## Note
+I made this to practice Python and only useful for someone who doesn't know how to use a command line.
